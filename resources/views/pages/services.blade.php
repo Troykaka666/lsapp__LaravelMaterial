@@ -8,7 +8,7 @@
 
     </head>
     <body>
-        <h1>About</h1>
-        <p>This is the About Page</p>
+        <h1>Services</h1>
+        <p>This is the Services Page</p>
     </body>
 </html>

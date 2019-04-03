@@ -1,0 +1,2 @@
+#Artisan
+php artisan make:controller NameOfControlle: to create a controller 
