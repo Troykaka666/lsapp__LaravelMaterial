@@ -1,2 +1,16 @@
 #Artisan
 php artisan make:controller NameOfControlle: to create a controller 
+
+@yield(display content on the page)
+
+
+//sub page
+@extends(root layout): extends the template file for each files
+@ section('content')
+everything here will be insert into the root layout template
+@endsection
+
+------------------------
+------------------------
+asset() - Generate a URL to an application asset.
+url() - Generate a URL to an named route.
