@@ -11,7 +11,7 @@ php artisan make:controller NameOfControlle -resource: to create a controller to
 	edit: Show the form for editing the specified resource.
 	update: Update the specified resource in storage.
 	destroy: Remove the specified resource from storage.
-
+php artisan make:auth: enable all the authentication
 
 ##syntax
 {{$valueable->value}}: passing an object from array
@@ -45,3 +45,4 @@ url() - Generate a URL to an named route.
 ----------------------------------
 -------************---------------
 learning Laravel Collective: https://www.tutcodex.com/laravel-collective-html-form-builder/
+Laravel text editor: https://github.com/UniSharp/laravel-ckeditor
