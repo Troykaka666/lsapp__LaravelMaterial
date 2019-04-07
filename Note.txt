@@ -1,5 +1,18 @@
 #Artisan
 php artisan make:controller NameOfControlle: to create a controller 
+php artisan make:model nameofmodel -m :to create a model.php
+php artisan migrate: to create tables for the database
+php artisan route:list: to show all the existing routes
+
+
+php artisan make:controller NameOfControlle -resource: to create a controller to intract with DB
+	index: Display a listing of the resource
+	create: Show the form for creating a new resource.
+	store: Store a newly created resource in storage.
+	show: Display the specified resource.
+	edit: Show the form for editing the specified resource.
+	update: Update the specified resource in storage.
+	destroy: Remove the specified resource from storage.
 
 @yield(display content on the page)
 
