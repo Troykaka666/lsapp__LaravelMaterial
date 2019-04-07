@@ -29,6 +29,9 @@ php artisan make:auth: enable all the authentication
 everything here will be insert into the root layout template
 @endsection
 
+//Authentication
+@auth @endauth: only the authenticated user can view
+@guest @endguest: only guest can view
 
 
 
