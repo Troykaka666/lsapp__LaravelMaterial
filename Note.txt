@@ -3,8 +3,6 @@ php artisan make:controller NameOfControlle: to create a controller
 php artisan make:model nameofmodel -m :to create a model.php
 php artisan migrate: to create tables for the database
 php artisan route:list: to show all the existing routes
-
-
 php artisan make:controller NameOfControlle -resource: to create a controller to intract with DB
 	index: Display a listing of the resource
 	create: Show the form for creating a new resource.
@@ -13,6 +11,14 @@ php artisan make:controller NameOfControlle -resource: to create a controller to
 	edit: Show the form for editing the specified resource.
 	update: Update the specified resource in storage.
 	destroy: Remove the specified resource from storage.
+
+
+##syntax
+{{$valueable->value}}: passing an object from array
+{!! $valueable->value !!}: passing an object from array and it will compile the HTML code when the value contains
+
+
+
 
 @yield(display content on the page)
 
@@ -23,7 +29,19 @@ php artisan make:controller NameOfControlle -resource: to create a controller to
 everything here will be insert into the root layout template
 @endsection
 
+
+
+
+
 ------------------------
 ------------------------
 asset() - Generate a URL to an application asset.
 url() - Generate a URL to an named route.
+
+
+
+
+
+----------------------------------
+-------************---------------
+learning Laravel Collective: https://www.tutcodex.com/laravel-collective-html-form-builder/
