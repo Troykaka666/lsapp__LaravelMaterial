@@ -8,7 +8,7 @@
             <div class="jumbotron">
                 
             <h4><a href="/posts/{{$post->id}}">{{ $post->title }}</a></h4>
-            <small class="lead">Written on {{$post->created_at}}</small>
+            <small class="lead">Written on {{$post->created_at}} by {{$post->user->name}}</small>
             </div>
         @endforeach
         {{$posts->links()}}
