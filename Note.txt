@@ -12,6 +12,7 @@ php artisan make:controller NameOfControlle -resource: to create a controller to
 	update: Update the specified resource in storage.
 	destroy: Remove the specified resource from storage.
 php artisan make:auth: enable all the authentication
+php artisan storage:link: to link the application to the local storage
 
 ##syntax
 {{$valueable->value}}: passing an object from array

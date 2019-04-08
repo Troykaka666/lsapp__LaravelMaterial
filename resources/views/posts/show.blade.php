@@ -6,6 +6,7 @@
         <hr>
     <small class="text-muted">{{$post->created_at}} by {{$post->user->name}}</small>
     </h1>
+    <img style="width:30%" src="/storage/cover_images/{{$post->cover_image}}" alt="">
     <p class="lead">{!! $post->body !!}</p>
     <hr>
     
